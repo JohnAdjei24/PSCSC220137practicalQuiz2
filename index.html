@@ -7,17 +7,17 @@
   <body>
     <a-scene>
       <a-assets>
-        <img id="sunTex" src="/solar-system/texture/2k_sun.jpg">
-        <img id="mercuryTex" src="/solar-system/texture/2k_mercury.jpg">
-        <img id="venusTex" src="/solar-system/texture/2k_venus_surface.jpg">
-        <img id="earthTex" src="/solar-system/texture/2k_earth_daymap.jpg">
-        <img id="marsTex" src="/solar-system/texture/2k_mars.jpg">
-        <img id="jupiterTex" src="/solar-system/texture/2k_jupiter.jpg">
-        <img id="saturnTex" src="/solar-system/texture/2k_saturn.jpg">
-        <img id="uranusTex" src="/solar-system/texture/2k_uranus.jpg">
-        <img id="neptuneTex" src="/solar-system/texture/2k_neptune.jpg">
+        <img id="sunTex" src="solar-system/texture/2k_sun.jpg">
+        <img id="mercuryTex" src="solar-system/texture/2k_mercury.jpg">
+        <img id="venusTex" src="solar-system/texture/2k_venus_surface.jpg">
+        <img id="earthTex" src="solar-system/texture/2k_earth_daymap.jpg">
+        <img id="marsTex" src="solar-system/texture/2k_mars.jpg">
+        <img id="jupiterTex" src="solar-system/texture/2k_jupiter.jpg">
+        <img id="saturnTex" src="solar-system/texture/2k_saturn.jpg">
+        <img id="uranusTex" src="solar-system/texture/2k_uranus.jpg">
+        <img id="neptuneTex" src="solar-system/texture/2k_neptune.jpg">
       </a-assets>
-    <a-sky src="/solar-system/texture/2k_stars_milky_way.jpg" rotation="0 -90 0"></a-sky>
+    <a-sky src="solar-system/texture/2k_stars_milky_way.jpg" rotation="0 -90 0"></a-sky>
       <a-sphere src="#sunTex" position="0 0 0" radius="3" 
                 animation="property: rotation; to: 0 360 0; loop: true; dur: 20000; easing: linear">
       </a-sphere>
@@ -33,7 +33,7 @@
 
       <a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear">
         <a-sphere src="#earthTex" position="11 0 0" radius="0.8">
-            <a-sphere position="1.2 0 0" radius="0.2" src="/solar-system/texture/2k_moon.jpg" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000; easing: linear"></a-sphere>
+            <a-sphere position="1.2 0 0" radius="0.2" src="solar-system/texture/2k_moon.jpg" animation="property: rotation; to: 0 360 0; loop: true; dur: 2000; easing: linear"></a-sphere>
         </a-sphere>
         
       </a-entity>
@@ -47,7 +47,7 @@
       </a-entity>
 
       <a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 35000; easing: linear">
-        <a-sphere src="#saturnTex" position="25 0 0" radius="1.7"><a-ring src="/solar-system/texture/2k_saturn_ring_alpha.png" radius-inner="2.1" radius-outer="3.5" rotation="90 0 0" material="side: double; transparent: true"></a-ring></a-sphere>
+        <a-sphere src="#saturnTex" position="25 0 0" radius="1.7"><a-ring src="solar-system/texture/2k_saturn_ring_alpha.png" radius-inner="2.1" radius-outer="3.5" rotation="90 0 0" material="side: double; transparent: true"></a-ring></a-sphere>
       </a-entity>
 
       <a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 45000; easing: linear">
@@ -61,7 +61,8 @@
       <a-sky color="#000000"></a-sky> <a-entity position="0 20 45" rotation="-30 0 0">
         <a-camera></a-camera>
       </a-entity>
-<a-sky src="/solar-system/texture/2k_stars.jpg" rotation="0 60 0"></a-sky>
+<a-sky src="solar-system/texture/2k_stars.jpg" rotation="0 60 0"></a-sky>
     </a-scene>
   </body>
+
 </html>
